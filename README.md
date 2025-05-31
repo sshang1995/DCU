@@ -20,5 +20,5 @@
 
 # Unit tests 
 1. unit test cases: WeatherAPITests.cs
-2. run unit test, go ti WeatherAPI.Tests folder
-dotnet test
+2. run unit test, go to WeatherAPI.Tests folder
+- dotnet test

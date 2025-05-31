@@ -1,0 +1,66 @@
+## Build output
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code settings
+.vscode/
+
+## Visual Studio settings
+.vs/
+*.dbmdl
+*.psess
+*.vsp
+*.pdb
+*.cache
+*.log
+
+## Dotnet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider
+.idea/
+
+## ASP.NET specific
+appsettings.Development.json
+secrets.json
+
+## Package files
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+*.lock.json
+*.deps.json
+
+## IIS / Kestrel
+*.vspscc
+*.Publish.xml
+.publish/
+wwwroot/lib/
+
+## Docker (optional if you build inside Docker)
+docker-compose.override.yml
+
+## OS-specific
+.DS_Store
+Thumbs.db
+
+## Logs
+logs/
+*.log
+
+## Test results
+TestResults/
+
+## Coverage reports
+coverage/
+coverage.cobertura.xml

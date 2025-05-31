@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: weathercli
+Version: 0.1
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Dynamic: requires-dist

@@ -7,9 +7,13 @@
 3. go to http://localhost:8080/swagger/index.html
 
 # Using CLI 
-1. go to weathercli/ directory 
+1. Install python library 
+- pip install requests click keyring pyyaml
+2. go to weathercli/ directory 
 - pip install -e. 
-2. examples
+3. examples
+- login --username admin --password password
+
 - get-current-weather 02472 celsius
 - get-current-weather 02472 celsius --output json
 - get-current-weather 02472 celsius --output yaml

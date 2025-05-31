@@ -7,10 +7,12 @@ setup(
     install_requires=[
         "click",
         "requests",
-        "pyyaml"
+        "pyyaml",
+        "keyring"
     ],
     entry_points={
         "console_scripts": [
+            "login = weathercli.cli:login",
             "get-current-weather = weathercli.cli:get_current_weather", 
             "get-average-weather = weathercli.cli:get_average_weather"
 

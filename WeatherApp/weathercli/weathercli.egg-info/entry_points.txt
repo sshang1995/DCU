@@ -1,3 +1,4 @@
 [console_scripts]
 get-average-weather = weathercli.cli:get_average_weather
 get-current-weather = weathercli.cli:get_current_weather
+login = weathercli.cli:login

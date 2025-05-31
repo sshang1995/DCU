@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Emit;
 using WeatherApp.Models;
@@ -5,6 +6,7 @@ using WeatherApp.Services;
 
 namespace WeatherApp.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("Weather")]
     public class WeatherForecastController : ControllerBase

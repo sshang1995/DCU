@@ -4,4 +4,5 @@ Version: 0.1
 Requires-Dist: click
 Requires-Dist: requests
 Requires-Dist: pyyaml
+Requires-Dist: keyring
 Dynamic: requires-dist

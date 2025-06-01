@@ -1,5 +1,6 @@
 
 # Running Web API 
+## Create imgae in local
 1. build docker image
 - docker build -t weatherapp .
 
@@ -7,7 +8,14 @@
 - docker run -d -p 8080:80 --name weatherapp-container weatherapp
 
 3. go to http://localhost:8080/swagger/index.html to see the detail 
+## Pull image from dockerhub
+1. pull image
+- docker image pull sshang0901/weather
+  
+2. run a container
+- docker run -d -p 8080:80 --name weather-container sshang0901/weather
 
+3. go to http://localhost:8080/swagger/index.html to see the detail 
 # Using CLI 
 1. Install python library 
 - pip install requests click keyring pyyaml
@@ -28,7 +36,7 @@
 
 # Authentication 
 1. Adding JWT token to API call
-- Authorization: Bearer <your-token>
+- Authorization: Bearer your-token
 
 2. Create token
 -  http://localhost:8080/login
